@@ -1,0 +1,26 @@
+h2 {
+    color: darkblue;
+}
+
+body {
+   font-family: "Comic Sans MS"
+   text-align: center;
+}
+
+.score {
+    color: darkred;
+}
+
+.gold {
+    color: gold;
+}
+
+#gameLink {
+    text-align: top left;
+
+}
+.../assets/screenshot1.png {
+height: 200px;
+width: 40% auto;
+
+}
