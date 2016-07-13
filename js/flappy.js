@@ -112,6 +112,9 @@ function generatePipe(){
 }
 
 function start(){
+  game.input.keyboard
+       .addKey(Phaser.Keyboard.ENTER)
+       .onDown.remove(start);
    game.physics.startSystem(Phaser.Physics.ARCADE);
    game.add.text(290, 15, "Flap Your Bird", {font: "30px Comic Sans MS", fill: "#FFFFFF"});
    labelScore = game.add.text(score.toString());
